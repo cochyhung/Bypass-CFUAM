@@ -122,7 +122,7 @@ def AttackCFPRO(url, until_datetime, scraper):
 
 if __name__ == '__main__':
         target, thread, t = get_info()
-        stdout.write(" [*] "+"Bypassing CF... (Max 300s)\n")
+        stdout.write(" [*] "+"Bypassing CF... (Max 120s)\n")
         if get_cookie(target):
             timer = threading.Thread(target=countdown, args=(t,))
             timer.start()
