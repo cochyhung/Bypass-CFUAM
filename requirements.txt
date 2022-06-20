@@ -1,0 +1,15 @@
+pystyle
+socks
+pysocks
+requests
+icmplib
+dnspython
+cloudscraper
+colorama
+shutup
+undetected_chromedriver
+psutil
+flask
+wget
+aysncio
+multiprocess
